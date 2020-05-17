@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 	xmlns="http://www.springframework.org/schema/beans"
+    	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definition here -->
+   	<!-- 注册service对象
+   		: 等同于Java代码中SomeServiceImpl service = new SomeServiceImpl();
+   		这个对象是在spring容器被初始化时创建的 -->
+	<bean name="someService" class="com.wmz.service.SomeServiceImpl">
+    	
+    </bean>
+
+</beans>
